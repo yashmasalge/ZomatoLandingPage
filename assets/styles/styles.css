@@ -1,309 +1,306 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    border: none;
-    text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
 }
 
-*:focus{
-    border: none;
-    outline: none;
+*:focus {
+  border: none;
+  outline: none;
 }
 
-a{
-    color: unset;
+a {
+  color: unset;
 }
 
 /* Header Styles */
-header{
-    background-image: url(/FullStackProjects/LandingPage/assets/images/hero.png);
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
+header {
+  background-image: url(../images/hero.png);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 
 /* Navbar Styles */
 
-nav{
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding: 25px 0px;
-    width: 90%;
-    margin: 0px auto;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 25px 0px;
+  width: 90%;
+  margin: 0px auto;
 }
 
-nav .nav-item{
-    color: white;
-    margin: 0px 10px;
+nav .nav-item {
+  color: white;
+  margin: 0px 10px;
 }
 
-nav div.container{
-    display: flex;
+nav div.container {
+  display: flex;
 }
 
-nav div.nav-item.app{
-    font-size: 0.9rem;
-    font-weight: 900;
+nav div.nav-item.app {
+  font-size: 0.9rem;
+  font-weight: 900;
 }
-nav div.nav-item{
-    font-size: 1.2rem;
-    font-weight: 200;
-}
-
-header div.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 70%;
-    width: 80%;
-    margin: 0px auto;
+nav div.nav-item {
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
-header img.logo{
-    width: 300px;
+header div.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70%;
+  width: 80%;
+  margin: 0px auto;
 }
 
-header h1{
-    font-size: 2.5rem;
-    color: white;
-    font-weight: 400;
+header img.logo {
+  width: 300px;
 }
 
+header h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 400;
+}
 
 /* Header content */
-header div.search-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    width: 70%;
-    border-radius: 10px;
+header div.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 70%;
+  border-radius: 10px;
 }
 
-header div.search-box i{
-    margin: 10px;
+header div.search-box i {
+  margin: 10px;
 }
 
-header div.search-box div.select i{
-    color: #F57082;
+header div.search-box div.select i {
+  color: #f57082;
 }
 
-header div.search-box div.input i{
-    color: #828282b7;
-    }
-
-header div.search-box div.seperator{
-    height: 50%;
-    background-color:#8282829b;
-    width: 2px; 
+header div.search-box div.input i {
+  color: #828282b7;
 }
 
-div.search-box div{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    margin: 0px 5px;
+header div.search-box div.seperator {
+  height: 50%;
+  background-color: #8282829b;
+  width: 2px;
 }
 
-header div.search-box div.input{
-    flex-grow: 80;
+div.search-box div {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 0px 5px;
+}
+
+header div.search-box div.input {
+  flex-grow: 80;
 }
 
 header div.search-box div.select select {
-    flex-grow: 1;
-    font-size: 1rem;
-    color: #757575;
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #757575;
 }
 
 header div.search-box div.input input {
-    width: 100%;
-    font-size: 1rem;
-    align-self: center;
+  width: 100%;
+  font-size: 1rem;
+  align-self: center;
 }
 
 /* Nearby section */
-section.nearby{
-    min-height: 40vh;
-    
+section.nearby {
+  min-height: 40vh;
 }
 
-section.nearby div.container{
-    width: 90%;
-    margin: 0px auto;
-    text-align: center;
-    padding: 40px 0px;
+section.nearby div.container {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 40px 0px;
 }
 
-section.nearby div.container h3{
-    font-size: 2.2rem;
-    font-weight: unset;
+section.nearby div.container h3 {
+  font-size: 2.2rem;
+  font-weight: unset;
 }
 
-section.nearby div.box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 25%;
-    padding: 25px 15px;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    margin-top: 5%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+section.nearby div.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 25%;
+  padding: 25px 15px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-section.nearby div.box:hover{
-    cursor: pointer;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+section.nearby div.box:hover {
+  cursor: pointer;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 /* App section */
 
-section.app{
-    min-height: 300px;
-    background-color: #FEFBF6;
+section.app {
+  min-height: 300px;
+  background-color: #fefbf6;
 }
 
-section.app div.container{
-    width: 70%;
-    margin: 0px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+section.app div.container {
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-section.app div.container img{
-max-width: 300px;
-display: block;
+section.app div.container img {
+  max-width: 300px;
+  display: block;
 }
 
-section.app div.container div.form{
-    max-width: 485px;
+section.app div.container div.form {
+  max-width: 485px;
 }
 
-section.app div.container div.form h1{
-    font-size: 3rem;
+section.app div.container div.form h1 {
+  font-size: 3rem;
 }
 
-section.app div.container div.form small{
-    display: block;
-    font-size: 1.1rem;
-    font-weight: 100;
-    color: #393737;
-    margin: 20px 0px;
+section.app div.container div.form small {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: #393737;
+  margin: 20px 0px;
 }
 
 /* Radio button styles */
 
-section.app div.container div.radio{
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px 10px;
-    align-items: center;
+section.app div.container div.radio {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 10px;
+  align-items: center;
 }
 
-section.app div.container div.radio div.rd1{
-    padding-right:10px;
-    display: flex;
-    align-items: center;
+section.app div.container div.radio div.rd1 {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
 }
 
-section.app div.container div.input{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    height: 50px;
+section.app div.container div.input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
 }
 
-section.app div.container div.input input{
-    flex-grow: 60;
-    background-color: #fff;
-    border: 1px solid #CFCFCF;
-    font-size: 1.1rem;
-    padding-left: 10px;
-    border-radius: 5px;
-    height: 90%;
-    margin : 0px 10px 0px 0px;
+section.app div.container div.input input {
+  flex-grow: 60;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  font-size: 1.1rem;
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 90%;
+  margin: 0px 10px 0px 0px;
 }
 
-section.app div.container div.input button{
-    background-color: #ED5A68;
-    border: 1px solid #CFCFCF;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 5px;
-    height: 90%;
-    font-weight: 100;
+section.app div.container div.input button {
+  background-color: #ed5a68;
+  border: 1px solid #cfcfcf;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  height: 90%;
+  font-weight: 100;
 }
 
-section.app div.container div.form div.download{
-    margin: 20px 0px;
-    font-weight: 100;
-    color: gray;
+section.app div.container div.form div.download {
+  margin: 20px 0px;
+  font-weight: 100;
+  color: gray;
 }
 
-section.app div.container div.form div.download div{
-    margin: 5px;
+section.app div.container div.form div.download div {
+  margin: 5px;
 }
 
-section.app div.container div.form img{
-    max-width: 150px;
-    display: inline-block;
-    margin: 5px 5px;
+section.app div.container div.form img {
+  max-width: 150px;
+  display: inline-block;
+  margin: 5px 5px;
 }
 
 /* Options Section */
 
-section.options{
-    min-height: 60vh;
+section.options {
+  min-height: 60vh;
 }
 
-section.options div.container{
-    width: 90%;
-    margin: 30px auto;
+section.options div.container {
+  width: 90%;
+  margin: 30px auto;
 }
-section.options div.container div{
-    margin-top: 40px;
-}
-
-section.options div.container div h2{
-    font-size: 2rem;
-    font-weight: 600;
+section.options div.container div {
+  margin-top: 40px;
 }
 
-section.options div.container div h3{
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin-top: 20px;
+section.options div.container div h2 {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-section.options div.container div ul{
-    display: flex;
-    margin-top: 20px;
-    padding: 20px;
-    flex-wrap: wrap;
+section.options div.container div h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 20px;
 }
 
-section.options div.container div ul li{
-    margin: 3px 10px;
-    color: gray;
-    font-size: 1.1rem;
-    font-weight: 100;
+section.options div.container div ul {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
+section.options div.container div ul li {
+  margin: 3px 10px;
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
 
 /* Footer First Section */
 
-footer{
-    min-height: 60vh;
-    background-color: rgb(248, 248, 248);
-    
+footer {
+  min-height: 60vh;
+  background-color: rgb(248, 248, 248);
 }
 
 /* footer.footer div.container{
@@ -313,146 +310,144 @@ footer{
     justify-content: center;
 } */
 
-footer div.footer{
-    width: 75%;
-    margin: 0px auto;
-    height: 100%;
+footer div.footer {
+  width: 75%;
+  margin: 0px auto;
+  height: 100%;
 }
 
-footer div.footer div.ft1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 30%;
-    padding: 30px 0px;
-    
+footer div.footer div.ft1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  padding: 30px 0px;
 }
 
-footer div.footer div.ft1 img{
-    width: 200px;
-    padding: 10px 10px;
+footer div.footer div.ft1 img {
+  width: 200px;
+  padding: 10px 10px;
 }
 
-footer div.footer div.search-box{
-    display: flex;
-    align-items: center;
-    height: 40px;
-    margin: 0px 20px;
+footer div.footer div.search-box {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 0px 20px;
 }
 
-footer div.footer div.ft1 div div.select{
-    font-size: 1.2rem;
-    height: 100%;
-    border: 1px solid black;
-    background-color: rgb(248, 248, 248);
-    border-radius: 5px;
+footer div.footer div.ft1 div div.select {
+  font-size: 1.2rem;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
 }
 
-footer div.footer div.ft1 div div.select i{
-    padding: 0px 10px;
+footer div.footer div.ft1 div div.select i {
+  padding: 0px 10px;
 }
 
-footer div.footer div.ft1 div div.select select{
-    height: 60%;
-    font-size: 1rem;
-    background-color: rgb(248, 248, 248);
-    padding: 0px 2px;
+footer div.footer div.ft1 div div.select select {
+  height: 60%;
+  font-size: 1rem;
+  background-color: rgb(248, 248, 248);
+  padding: 0px 2px;
 }
-
 
 /* Footer second Section */
 
-footer div.footer div.ft2{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0px 10px;
-    height: 35vh;
+footer div.footer div.ft2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 10px;
+  height: 35vh;
 }
 
-footer div.footer div.ft2 div.one{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-shrink: unset;
-    height: 100%;
-    width: 18.33%;
+footer div.footer div.ft2 div.one {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: unset;
+  height: 100%;
+  width: 18.33%;
 }
-footer div.footer div.ft2 div.two{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
-    width: 18.33%;
+footer div.footer div.ft2 div.two {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 18.33%;
 }
-footer div.footer div.ft2 div.three{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
-    width: 18.33%;
+footer div.footer div.ft2 div.three {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 18.33%;
 }
-footer div.footer div.ft2 div.four{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
-    width: 18.33%;
+footer div.footer div.ft2 div.four {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 18.33%;
 }
-footer div.footer div.ft2 div.five{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
-    width: 18.33%;
-}
-
-footer div.footer div.ft2 h3{
-    padding-bottom: 10px;
-    font-size: 1rem;
+footer div.footer div.ft2 div.five {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 18.33%;
 }
 
-footer div.footer div.ft2 a{
-    padding: 10px 0px;
-    color: grey;
-    cursor: pointer;
+footer div.footer div.ft2 h3 {
+  padding-bottom: 10px;
+  font-size: 1rem;
+}
+
+footer div.footer div.ft2 a {
+  padding: 10px 0px;
+  color: grey;
+  cursor: pointer;
 }
 
 /* footer third section */
 
-footer div.footer div.seperator{
-    margin-top: 30px;
-    background-color : grey;
-    width: 100%;
-    height: 2px;
+footer div.footer div.seperator {
+  margin-top: 30px;
+  background-color: grey;
+  width: 100%;
+  height: 2px;
 }
 
 /* footer fourth section */
 
-footer div.footer div.ft3{
-    margin-top: 20px;
-    font-size: 0.9rem;
-    color: grey;
+footer div.footer div.ft3 {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: grey;
 }
 
-footer div.footer div.ft2 div.five i{
-    padding: 5px 5px;
-    font-size: 1.3rem;
-    cursor: pointer;
+footer div.footer div.ft2 div.five i {
+  padding: 5px 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
 }
 
-footer div.footer div.ft2 div.five img{
-    max-width: 150px;
-    padding: 5px 0px;
-    cursor: pointer;
+footer div.footer div.ft2 div.five img {
+  max-width: 150px;
+  padding: 5px 0px;
+  cursor: pointer;
 }
